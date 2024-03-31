@@ -215,6 +215,11 @@ img {
   color: #fff;
 }
 
+.hero-content {
+  max-width: min(90%, 87.5rem);
+  margin-inline: auto;
+}
+
 .heading-xl {
   font-size: var(--h1);
 }
@@ -467,6 +472,10 @@ textarea {
 }
 
 @media screen and (max-width: 900px) {
+  body {
+    line-height: 1.5;
+  }
+
   .nav-list,
   .social-link {
     display: none;
@@ -503,11 +512,16 @@ textarea {
   }
 
   .question {
-    font-size: var(--p);
+    font-size: 1.1rem;
   }
 
   .accordion-answer {
     font-size: var(--p);
     letter-spacing: 0.5px;
+  }
+
+  .about .wrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 }

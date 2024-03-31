@@ -5,10 +5,12 @@ function Home() {
   return (
     <div className="home">
       <section className="hero">
-        <h1 className="heading-xl">Welcome to Artsy Active Kids</h1>
-        <p className="hero-text">
-          Where little dreams begin and big imaginations flourish!
-        </p>
+        <div className="hero-content">
+          <h1 className="heading-xl">Welcome to Artsy Active Kids</h1>
+          <p className="hero-text">
+            Where little dreams begin and big imaginations flourish!
+          </p>
+        </div>
       </section>
 
       <section className="intro wrapper">
