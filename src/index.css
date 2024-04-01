@@ -520,7 +520,8 @@ textarea {
     display: block;
   }
 
-  .classes .wrapper {
+  .classes .wrapper,
+  .class .wrapper {
     grid-template-columns: 1fr;
   }
 
