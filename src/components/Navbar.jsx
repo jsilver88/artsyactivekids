@@ -7,7 +7,9 @@ function Navbar() {
     <header className="nav-header">
       <nav className="navbar wrapper">
         <Link to="/" className="logo">
-          Artsy Active <span>Kids</span>
+          <h1>
+            Artsy Active <span>Kids</span>
+          </h1>
         </Link>
         <ul className="nav-list">
           <li>

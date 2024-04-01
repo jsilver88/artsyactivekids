@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { FaAngleDown, FaCaretDown } from "react-icons/fa6"
 
 function Accordion({ faqs }) {
   const [activeIndex, setActiveIndex] = useState(null)
@@ -18,7 +17,6 @@ function Accordion({ faqs }) {
             className="question"
           >
             {faq.question}
-            <FaAngleDown />
           </button>
           <div className="accordion-answer">
             {activeIndex === index && <p className="p-text">{faq.answer}</p>}

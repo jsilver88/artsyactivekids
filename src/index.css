@@ -6,7 +6,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   --text: hsl(217, 54%, 14%);
-  --background: hsl(53, 90%, 92%);
+  --background: hsl(61, 100%, 88%);
   --primary: hsl(272, 58%, 85%);
   --secondary: hsl(188, 49%, 69%);
   --accent: hsl(336, 100%, 78%);
@@ -68,7 +68,7 @@ img {
 .btn {
   display: inline-block;
   border: 2px solid transparent;
-  background: var(--primary);
+  background: var(--pastel-1);
   padding: 10px 20px;
   margin-top: 2rem;
   border-radius: 4px;
@@ -78,7 +78,7 @@ img {
 }
 
 .btn:hover {
-  border-color: var(--primary);
+  border-color: var(--pastel-1);
   background-color: transparent;
 }
 
@@ -101,13 +101,6 @@ img {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
 
-.logo {
-  font-family: "Inter", sans-serif;
-  font-size: 1.6rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
 .wrapper {
   max-width: min(90%, 87.5rem);
   margin-inline: auto;
@@ -117,8 +110,15 @@ img {
   font-weight: bold;
 }
 
+.shadow {
+  background-color: rgb(0 0 0 / 15%);
+  padding: 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
 .nav-header {
-  padding-block: 2rem;
+  padding-block: 1rem;
   background-color: var(--pastel-2);
   color: #fff;
   box-shadow: 0 3px 5px -1px rgb(0 0 0 / 10%);
@@ -156,6 +156,18 @@ img {
 }
 
 .social-link:hover {
+  scale: 1.1;
+}
+
+.logo {
+  transition: all 0.25s ease-in-out;
+}
+
+.logo span {
+  color: var(--primary);
+}
+
+.logo:hover {
   scale: 1.1;
 }
 
@@ -243,7 +255,10 @@ img {
 
 /* ------ Classes ------ */
 .classes {
-  background-color: var(--pastel-1);
+  background: linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 10%)),
+    url("/images/splashofcolor.png") center/cover no-repeat;
+  background-size: cover;
+  /* background-color: var(--pastel-1); */
   color: #fff;
 }
 
@@ -261,10 +276,24 @@ img {
 
 /* ------ Class Page ------ */
 .class {
+  background: linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 10%)),
+    url("/images/splashofcolor.png") center/cover;
   padding-block: 4rem;
+}
+
+.class .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 4rem;
+}
+
+.class .heading-lg {
+  margin-bottom: 2rem;
+  color: hsl(269, 64%, 65%);
+}
+
+.class .shadow {
+  color: #fff;
 }
 
 .class .rounded-img {
@@ -300,6 +329,8 @@ img {
 /* ------ Gallery Page ------ */
 .gallery {
   padding-block: 4rem;
+  background: linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 10%)),
+    url("/images/splashofcolor.png") center/cover;
 }
 
 .row {
@@ -316,6 +347,7 @@ img {
 
 .gallery .heading-lg {
   margin-bottom: 1.4rem;
+  color: rgb(96, 179, 189);
 }
 
 /* ------ Contact Page ------ */
@@ -461,12 +493,11 @@ textarea {
 }
 
 .footer .copyright {
-  font-size: 0.875rem;
+  font-size: var(--p);
 }
 
 .small-text {
-  font-size: 1rem;
-  letter-spacing: 1px;
+  font-size: var(--p);
 }
 
 .footer a {
@@ -474,6 +505,7 @@ textarea {
   font-weight: bold;
 }
 
+/* ------ Mobile Query ------ */
 @media screen and (max-width: 900px) {
   body {
     line-height: 1.5;
