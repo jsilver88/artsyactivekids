@@ -6,7 +6,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   --text: hsl(217, 54%, 14%);
-  --background: hsl(61, 100%, 88%);
+  --background: hsl(61, 100%, 91%);
   --primary: hsl(272, 58%, 85%);
   --secondary: hsl(188, 49%, 69%);
   --accent: hsl(336, 100%, 78%);
@@ -181,7 +181,7 @@ img {
   background-color: var(--background);
   position: absolute;
   width: 100%;
-  top: 6.4rem;
+  top: 4.6rem;
   left: 0;
   opacity: 0;
   transition: opacity 0.5s ease;
