@@ -549,8 +549,12 @@ textarea {
     grid-template-columns: 1fr;
   }
 
+  .class .shadow {
+    text-align: center;
+  }
+
   .grid-col {
-    grid-template-columns: 1fr;
+    display: none;
   }
 
   .contact-row {

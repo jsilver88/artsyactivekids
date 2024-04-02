@@ -32,7 +32,7 @@ function Classes() {
             </div>
             <p className="mt-2">
               Want to sign up? Reach out to us directly{" "}
-              <Link to="/contact" className="btn">
+              <Link to="/contact" className="link">
                 Sign Up
               </Link>
             </p>
