@@ -231,8 +231,7 @@ img {
 }
 
 .hero-content {
-  max-width: min(90%, 87.5rem);
-  margin-inline: auto;
+  text-align: center;
 }
 
 .heading-xl {
@@ -247,6 +246,7 @@ img {
   font-size: 1.4rem;
   font-weight: bold;
   letter-spacing: 0.8px;
+  text-align: center;
 }
 
 .intro {
