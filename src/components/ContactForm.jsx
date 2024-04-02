@@ -62,6 +62,7 @@ function ContactForm() {
           name="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
+          placeholder="Your Name"
           required
         />
       </div>
@@ -72,6 +73,7 @@ function ContactForm() {
           name="user_email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          placeholder="Your Email"
           required
         />
       </div>
@@ -81,6 +83,7 @@ function ContactForm() {
           name="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+          placeholder="Any questions, comments, or interested in our classes..."
         />
       </div>
       <button type="submit" disabled={isSubmitting} className="btn">

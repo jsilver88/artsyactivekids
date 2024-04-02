@@ -335,13 +335,13 @@ img {
 
 .row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.4rem;
 }
 
 .gallery .rounded-img {
-  width: 40rem;
-  height: 40rem;
+  width: 30rem;
+  height: 30rem;
   object-fit: cover;
 }
 
@@ -406,13 +406,19 @@ img {
 
 .form-group input,
 textarea {
-  border: none;
+  border: 2px solid var(--pastel-1);
+  box-shadow: 0 3px 5px rgb(0 0 0 / 10%);
   padding: 10px;
   border-radius: 4px;
 }
 
 .form-group textarea {
   height: 10rem;
+}
+
+.form-group input,
+textarea {
+  font-family: inherit;
 }
 
 /* ------ FAQ section ------ */
@@ -509,6 +515,10 @@ textarea {
 @media screen and (max-width: 900px) {
   body {
     line-height: 1.5;
+  }
+
+  .img {
+    height: auto;
   }
 
   .nav-list,
