@@ -15,6 +15,7 @@ function Contact() {
         </div>
         <div className="col">
           <p className="p-text">Or reach out directly</p>
+
           <div className="contacts">
             <IoIosPhonePortrait style={{ color: "#5cb9d9" }} size={35} />
             <a href="tel:8182742533" className="contact-link">
@@ -35,6 +36,15 @@ function Contact() {
               className="contact-link"
             >
               @artsyactivekids
+            </a>
+          </div>
+          <div className="contacts">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScKWq_WTifQ3_ibvXZnXgC5ONUBlH4GaZylxqE0HTksKCx3Tw/viewform?usp=sf_link"
+              target="_blank"
+              className="contact-link"
+            >
+              Fill out our class form here!
             </a>
           </div>
         </div>

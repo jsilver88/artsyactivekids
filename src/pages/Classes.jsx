@@ -31,10 +31,14 @@ function Classes() {
               </p>
             </div>
             <p className="mt-2">
-              Want to sign up? Reach out to us directly{" "}
-              <Link to="/contact" className="link">
+              Want to sign up? Fill out our form here{" "}
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScKWq_WTifQ3_ibvXZnXgC5ONUBlH4GaZylxqE0HTksKCx3Tw/viewform?usp=sf_link"
+                target="_blank"
+                className="link"
+              >
                 Sign Up
-              </Link>
+              </a>
             </p>
           </div>
         </div>
