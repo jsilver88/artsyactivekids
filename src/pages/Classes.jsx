@@ -8,16 +8,6 @@ function Classes() {
           <h2 className="heading-lg">Upcoming Classes</h2>
           <div className="shadow">
             <div className="session">
-              <img
-                src="/images/mommymeyoga.jpeg"
-                alt=""
-                className="class-img"
-              />
-              <p className="p-text">
-                <strong>April 14th:</strong> Mommy + Me Yoga @ 10:30AM
-              </p>
-            </div>
-            <div className="session">
               <img src="/images/428-sensory.jpg" alt="" className="class-img" />
               <p className="p-text">
                 <strong>April 28th:</strong> Sensory Art Play @ 11AM
@@ -30,14 +20,20 @@ function Classes() {
                 11AM
               </p>
             </div>
+            <div className="session">
+              <img src="/images/mommyme519.jpeg" alt="" className="class-img" />
+              <p className="p-text">
+                <strong>May 19th:</strong> Mommy + Me Yoga @ 11AM
+              </p>
+            </div>
             <p className="mt-2">
-              Want to sign up? Fill out our form here{" "}
+              Want to sign up? Fill out our form{" "}
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLScKWq_WTifQ3_ibvXZnXgC5ONUBlH4GaZylxqE0HTksKCx3Tw/viewform?usp=sf_link"
                 target="_blank"
                 className="link"
               >
-                Sign Up
+                HERE
               </a>
             </p>
           </div>

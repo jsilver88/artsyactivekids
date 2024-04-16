@@ -19,7 +19,7 @@ const faqs = [
   {
     question: "How can I sign up?",
     answer:
-      "Feel free to email us artsyactivekids@gmail.com to confirm your reservation.",
+      "Feel free to email us at artsyactivekids@gmail.com to confirm your reservation.",
   },
   {
     question: "Do you offer mobile classes at birthday parties?",
