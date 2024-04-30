@@ -8,12 +8,6 @@ function Classes() {
           <h2 className="heading-lg">Upcoming Classes</h2>
           <div className="shadow">
             <div className="session">
-              <img src="/images/428-sensory.jpg" alt="" className="class-img" />
-              <p className="p-text">
-                <strong>April 28th:</strong> Sensory Art Play @ 11AM
-              </p>
-            </div>
-            <div className="session">
               <img src="/images/momscircle.jpeg" alt="" className="class-img" />
               <p className="p-text">
                 May 13th - June 3rd: 4-Week Sensory Art + Mom's Circle Series @
