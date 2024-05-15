@@ -20,6 +20,16 @@ function Classes() {
                 <strong>May 19th:</strong> Mommy + Me Yoga @ 11AM
               </p>
             </div>
+            <div className="session">
+              <img
+                src="/images/parentsjune9.jpeg"
+                alt=""
+                className="class-img"
+              />
+              <p className="p-text">
+                <strong>June 9th:</strong> Parents + Me @ 11AM
+              </p>
+            </div>
             <p className="mt-2">
               Want to sign up? Fill out our form{" "}
               <a
