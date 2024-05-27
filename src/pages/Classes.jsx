@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 function Classes() {
   return (
     <div className="class">
@@ -12,12 +10,6 @@ function Classes() {
               <p className="p-text">
                 May 13th - June 3rd: 4-Week Sensory Art + Mom's Circle Series @
                 11AM
-              </p>
-            </div>
-            <div className="session">
-              <img src="/images/mommyme519.jpeg" alt="" className="class-img" />
-              <p className="p-text">
-                <strong>May 19th:</strong> Mommy + Me Yoga @ 11AM
               </p>
             </div>
             <div className="session">
