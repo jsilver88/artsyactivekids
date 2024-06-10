@@ -11,20 +11,13 @@ function Classes() {
           <h2 className="heading-lg">Upcoming Classes</h2>
           <div className="shadow">
             <div className="session">
-              <img src="/images/momscircle.jpeg" alt="" className="class-img" />
-              <p className="p-text">
-                May 13th - June 3rd: 4-Week Sensory Art + Mom's Circle Series @
-                11AM
-              </p>
-            </div>
-            <div className="session">
               <img
-                src="/images/parentsjune9.jpeg"
+                src="/images/714-sensory.jpeg"
                 alt=""
                 className="class-img"
               />
               <p className="p-text">
-                <strong>June 9th:</strong> Parents + Me @ 11AM
+                <strong>July 14th:</strong> Sensory Art @ 11AM
               </p>
             </div>
             <p className="mt-2">
