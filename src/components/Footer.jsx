@@ -10,7 +10,9 @@ function Footer() {
       <div className="col">
         <p className="small-text">
           Made with ♥️ by{" "}
-          <a href="https://silverlightcreative.com">Silverlight Creative</a>
+          <a href="https://silverlightcreative.com" target="_blank">
+            Silverlight Creative
+          </a>
         </p>
       </div>
     </footer>

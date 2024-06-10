@@ -98,7 +98,7 @@ img {
 
 .rounded-img {
   border-radius: 5px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper {
@@ -322,7 +322,7 @@ img {
 }
 
 .link {
-  color: var(--pastel-2);
+  color: var(--pastel-3);
   font-weight: bold;
 }
 

@@ -1,4 +1,9 @@
 function Classes() {
+  paypal
+    .HostedButtons({
+      hostedButtonId: "7XLUFC2UKPWBW",
+    })
+    .render("#paypal-container-7XLUFC2UKPWBW")
   return (
     <div className="class">
       <div className="wrapper">
@@ -30,6 +35,15 @@ function Classes() {
                 className="link"
               >
                 HERE
+              </a>
+            </p>
+            <p className="mt-2">
+              Pay here...
+              <a
+                href="https://www.paypal.com/ncp/payment/7XLUFC2UKPWBW"
+                className="link"
+              >
+                PayPal or Venmo
               </a>
             </p>
           </div>
