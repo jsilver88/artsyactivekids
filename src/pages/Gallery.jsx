@@ -1,47 +1,37 @@
 const photos = [
   {
     id: Math.floor(Math.random() * 100000),
-    img: "/images/artplates.jpg",
+    img: "/images/hands.jpg",
     alt: "paintings on plates",
   },
   {
     id: Math.floor(Math.random() * 100000),
-    img: "/images/kidsplayingwithbeads.jpg",
+    img: "/images/noodles.jpg",
     alt: "paintings on plates",
   },
   {
     id: Math.floor(Math.random() * 100000),
-    img: "/images/heartshapedcardboard.jpg",
+    img: "/images/paint-brush.jpg",
     alt: "paintings on plates",
   },
   {
     id: Math.floor(Math.random() * 100000),
-    img: "/images/kidsbracelets.jpg",
+    img: "/images/pumpkin.jpg",
     alt: "paintings on plates",
   },
   {
     id: Math.floor(Math.random() * 100000),
-    img: "/images/kidscoloring.jpg",
+    img: "/images/sophie-painting.jpg",
     alt: "paintings on plates",
   },
   {
     id: Math.floor(Math.random() * 100000),
-    img: "/images/kidsdrawing.jpg",
-    alt: "paintings on plates",
-  },
-  {
-    id: Math.floor(Math.random() * 100000),
-    img: "/images/watercolor.jpg",
+    img: "/images/momsandbabies.jpg",
     alt: "paintings on plates",
   },
   {
     id: Math.floor(Math.random() * 100000),
     img: "/images/sensorytoys.jpg",
-    alt: "paintings on plates",
-  },
-  {
-    id: Math.floor(Math.random() * 100000),
-    img: "/images/watercolorbrushes.jpg",
     alt: "paintings on plates",
   },
 ]

@@ -17,7 +17,7 @@ function Classes() {
                 className="class-img"
               />
               <p className="p-text">
-                <strong>July 14th:</strong> Sensory Art @ 11AM
+                <strong>Dec 15th:</strong> Holiday Class @ 11AM
               </p>
             </div>
             <p className="mt-2">
@@ -48,12 +48,12 @@ function Classes() {
             className="img rounded-img"
           />
           <img
-            src="/images/kidsbracelets.jpg"
+            src="/images/hands.jpg"
             alt="moms and babies"
             className="img rounded-img"
           />
           <img
-            src="/images/kidsplayingwithbeads.jpg"
+            src="/images/paint-brush.jpg"
             alt="mommy and baby doing yoga"
             className="img rounded-img"
           />

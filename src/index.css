@@ -472,6 +472,7 @@ textarea {
 .about .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
 }
 
 .about .heading-lg {
@@ -481,6 +482,10 @@ textarea {
 .about p {
   font-weight: bold;
   letter-spacing: 0.5px;
+}
+
+.about .p-text:not(:nth-child(1)) {
+  text-indent: 1.5rem;
 }
 
 /* ------ Footer ------ */
