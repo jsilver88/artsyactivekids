@@ -18,9 +18,9 @@ function ContactForm() {
     e.preventDefault()
     setIsSubmitting(true)
 
-    const serviceId = "service_0yf8voh"
-    const templateId = "template_qcmaxyl"
-    const publicKey = "DONmek8Stvzkq1RfT"
+    const serviceId = "service_pob6bid"
+    const templateId = "template_bzvf7st"
+    const publicKey = "BDnBgJgsowO6HkLXd"
 
     const templateParams = {
       from_name: name,
